@@ -31,6 +31,21 @@ python3 -m pip install git+https://github.com/zizo-pro/pafy@b8976f22c19e4ab5515c
 
 The original models were converted to different formats (including .onnx) by [PINTO0309](https://github.com/PINTO0309), download the models from [his repository](https://github.com/PINTO0309/PINTO_model_zoo/tree/main/252_RAFT) and save them into the **[models](https://github.com/fateshelled/ONNX-CSFlow-Optical-Flow-Estimation/tree/main/models)** folder.
 
+## DEMO
+- Image inference:
+```bash
+python3 image_flow_estimation.py
+```
+
+- Video inference:
+```bash
+python3 video_flow_estimation.py
+```
+
+- Webcam inference:
+```bash
+python webcam_flow_estimation.py
+```
 
 ## References:
 
