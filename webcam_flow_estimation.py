@@ -1,5 +1,4 @@
 import cv2
-import pafy
 import numpy as np
 import time
 
