@@ -16,12 +16,12 @@ Python scripts for performing optical flow estimation using the CSFlow model in 
 - opencv-python
 - onnxruntime or onnxruntime-gpu
 
-### image_flow_estimation.py
+### for image_flow_estimation.py
 ```bash
 python3 -m pip install imread-from-url
 ```
 
-### video_flow_estimation.py
+### for video_flow_estimation.py
 ```bash
 python3 -m pip install youtube_dl
 python3 -m pip install git+https://github.com/zizo-pro/pafy@b8976f22c19e4ab5515cacbfae0a3970370c102b
