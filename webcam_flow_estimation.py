@@ -30,7 +30,7 @@ while cap.isOpened():
         continue
 
     t = time.time()
-    flow_map = flow_estimator(frame_list[0], frame_list[-1])
+    flow_map = flow_estimator(frame_list[-1], frame_list[0])
     dt = time.time() - t
     print(f"Inference: {1 / dt:.3f} FPS")
     flow_img = flow_estimator.draw_flow()
